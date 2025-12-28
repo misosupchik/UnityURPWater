@@ -24,19 +24,17 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 6be303a0866da7c46ab56a308bd529ad, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _ALPHAPREMULTIPLY_ON
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2999
   stringTagMap:
-    RenderType: Transparent
+    RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
-  - DepthOnly
+  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -49,8 +47,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: f02ba3a811fd1d64f8452773cad47bd2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RippleTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_602eaf75cce34cc997129a0469733dd0_Texture_1_Texture2D:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TrailRenderTexture:
+        m_Texture: {fileID: 8400000, guid: c99efc96348847c45998055194725ffb, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -71,30 +77,30 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _CastShadows: 1
+    - _CastShadows: 0
     - _Cull: 2
     - _DepthPower: 24.06
     - _DistortionAmount: 1
     - _DistortionHeight: 0.15
     - _DistortionPower: 1
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _FoamAmount: 1
     - _FoamDepthOffset: -0.03
     - _FoamDistance: 3.82
     - _FoamHeight: 11.61
     - _FoamPower: 1
     - _FoamSpeed: 0
-    - _FresnelPower: 4.5
+    - _FresnelPower: 9.5
     - _GenegalTimeMultiplier: 1
     - _NormalStrength: 0.77
-    - _QueueControl: 0
+    - _QueueControl: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RefractionStrength: 0.005
+    - _RefractionStrength: 0.002
     - _RefractionSwitch: 1
-    - _Smoothness: 0.5
+    - _Smoothness: 0.603
     - _SrcBlend: 1
-    - _Surface: 1
+    - _Surface: 0
     - _WaveFoamHeight: 11.9
     - _WaveFoamPower: 1.99
     - _WaveFoamTransparency: 0.95
@@ -102,11 +108,11 @@ Material:
     - _WavesStrength: 1.07
     - _WorkflowMode: 1
     - _ZTest: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
     - _DepthColor: {r: 0, g: 0.06673234, b: 0.603, a: 1}
-    - _DistanceColor: {r: 0.05873976, g: 0.1051076, b: 0.8301887, a: 1}
+    - _DistanceColor: {r: 0.75742865, g: 0.83137256, b: 0.058823522, a: 1}
     - _DistortionNoiseSpeed: {r: 0.3, g: 0, b: 0, a: 0}
     - _DistortionNoiseTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _FoamColor: {r: 0.2688679, g: 0.5588215, b: 1, a: 0.9490196}
@@ -114,8 +120,8 @@ Material:
     - _FoamTextureTiling: {r: 0.05, g: 0.05, b: 0, a: 0}
     - _MainColor: {r: 0.081301175, g: 0.25313815, b: 0.8207547, a: 1}
     - _NormalSpeed: {r: 0, g: -0.1, b: 0, a: 0}
-    - _NormalTiling: {r: 30, g: 30, b: 0, a: 0}
-    - _SurfaceColor: {r: 0, g: 0.08354923, b: 0.8784314, a: 1}
+    - _NormalTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _SurfaceColor: {r: 0, g: 0.1678185, b: 0.8784314, a: 0.83137256}
     - _WavesNoiseSpeed: {r: -0.3, g: 0, b: 0, a: 0}
     - _WavesNoiseTiling: {r: 0.2, g: 0.05, b: 0, a: 0}
   m_BuildTextureStacks: []
