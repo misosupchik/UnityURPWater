@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -291,13 +292,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16778521, y: -0, z: -0, w: 0.98582363}
-  m_LocalPosition: {x: 11.79, y: -12.43, z: 11.21}
+  m_LocalRotation: {x: 0.38190755, y: 0.047104232, z: -0.019491378, w: 0.92279357}
+  m_LocalPosition: {x: 36.208717, y: 40.192722, z: -41.430897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 19.318, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 21.245, y: -45.378, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,6 +343,28 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!95 &330585548
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 02297f1938d3cf14488e60952659e8f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +568,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.87, y: -19.88, z: -4.27}
-  m_LocalScale: {x: 1, y: 10, z: 1}
+  m_LocalScale: {x: 1, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 861232516}
@@ -6038,7 +6061,7 @@ Transform:
   m_GameObject: {fileID: 1610870177}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09666667, y: 0.7383, z: 0.78000003}
+  m_LocalPosition: {x: 0.09666667, y: 0.725, z: 0.78000003}
   m_LocalScale: {x: 0.033333335, y: 0.033333335, z: 0.033333335}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6232,18 +6255,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1325760283}
     m_Modifications:
-    - target: {fileID: 5746520588190911562, guid: b2c5a545ded6f1a448a9b86104405db0, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746520588190911562, guid: b2c5a545ded6f1a448a9b86104405db0, type: 3}
-      propertyPath: m_RenderingLayerMask
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5746520588190911562, guid: b2c5a545ded6f1a448a9b86104405db0, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: d725776684cbb0c4a89db6a7f96156a8, type: 2}
     - target: {fileID: 6065440699474595750, guid: b2c5a545ded6f1a448a9b86104405db0, type: 3}
       propertyPath: m_Name
       value: Water_01
@@ -6251,6 +6262,10 @@ PrefabInstance:
     - target: {fileID: 6065440699474595750, guid: b2c5a545ded6f1a448a9b86104405db0, type: 3}
       propertyPath: m_Layer
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065440699474595750, guid: b2c5a545ded6f1a448a9b86104405db0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6604425476021861558, guid: b2c5a545ded6f1a448a9b86104405db0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6311,10 +6326,6 @@ PrefabInstance:
     - target: {fileID: 3401500043307410937, guid: e34c36231ef156f47b8ad7f6216fb610, type: 3}
       propertyPath: m_Name
       value: Water_03
-      objectReference: {fileID: 0}
-    - target: {fileID: 3401500043307410937, guid: e34c36231ef156f47b8ad7f6216fb610, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7231939503236471856, guid: e34c36231ef156f47b8ad7f6216fb610, type: 3}
       propertyPath: m_LocalPosition.x

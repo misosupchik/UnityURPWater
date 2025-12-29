@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture:
-        m_Texture: {fileID: 2800000, guid: f02ba3a811fd1d64f8452773cad47bd2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3cd8359acb687ed4db9cdc08bcfecef6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RippleTex:
@@ -92,13 +92,13 @@ Material:
     - _FoamSpeed: 0
     - _FresnelPower: 9.5
     - _GenegalTimeMultiplier: 1
-    - _NormalStrength: 0.77
+    - _NormalStrength: 0
     - _QueueControl: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _RefractionStrength: 0.002
     - _RefractionSwitch: 1
-    - _Smoothness: 0.603
+    - _Smoothness: 0.38
     - _SrcBlend: 1
     - _Surface: 0
     - _WaveFoamHeight: 11.9
@@ -112,15 +112,15 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _DepthColor: {r: 0, g: 0.06673234, b: 0.603, a: 1}
-    - _DistanceColor: {r: 0.75742865, g: 0.83137256, b: 0.058823522, a: 1}
+    - _DistanceColor: {r: 0.058823522, g: 0.27073544, b: 0.83137256, a: 1}
     - _DistortionNoiseSpeed: {r: 0.3, g: 0, b: 0, a: 0}
     - _DistortionNoiseTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _FoamColor: {r: 0.2688679, g: 0.5588215, b: 1, a: 0.9490196}
     - _FoamTextureSpeed: {r: 0.8, g: 0, b: 0, a: 0}
     - _FoamTextureTiling: {r: 0.05, g: 0.05, b: 0, a: 0}
     - _MainColor: {r: 0.081301175, g: 0.25313815, b: 0.8207547, a: 1}
-    - _NormalSpeed: {r: 0, g: -0.1, b: 0, a: 0}
-    - _NormalTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _NormalSpeed: {r: -0.3, g: 0, b: 0, a: 0}
+    - _NormalTiling: {r: 0.05, g: 0.05, b: 0, a: 0}
     - _SurfaceColor: {r: 0, g: 0.1678185, b: 0.8784314, a: 0.83137256}
     - _WavesNoiseSpeed: {r: -0.3, g: 0, b: 0, a: 0}
     - _WavesNoiseTiling: {r: 0.2, g: 0.05, b: 0, a: 0}

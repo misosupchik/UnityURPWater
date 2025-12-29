@@ -102,7 +102,7 @@ Material:
     - _WaveFoamHeight: 10
     - _WaveFoamPower: 1
     - _WaveFoamTransparency: 0.5
-    - _WavesHeight: 0.05
+    - _WavesHeight: 0.07
     - _WavesStrength: 0.5
     - _WorkflowMode: 1
     - _ZTest: 2
